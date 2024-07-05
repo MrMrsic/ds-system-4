@@ -1,0 +1,28 @@
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-inspector@5.1.1
+npm warn Found: react@18.3.1
+npm warn node_modules/react
+npm warn   peer react@">=16.0.0" from @ant-design/cssinjs@1.21.0
+npm warn   node_modules/@ant-design/cssinjs
+npm warn     @ant-design/cssinjs@"^1.21.0" from antd@5.19.1
+npm warn     node_modules/antd
+npm warn   93 more (@ant-design/icons, @ant-design/react-slick, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.4 || ^17.0.0" from react-inspector@5.1.1
+npm warn node_modules/@storybook/addon-actions/node_modules/react-inspector
+npm warn   react-inspector@"^5.1.0" from @storybook/addon-actions@6.5.16
+npm warn   node_modules/@storybook/addon-actions
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.4 || ^17.0.0" from react-inspector@5.1.1
+npm warn   node_modules/@storybook/addon-actions/node_modules/react-inspector
+npm warn     react-inspector@"^5.1.0" from @storybook/addon-actions@6.5.16
+npm warn     node_modules/@storybook/addon-actions
+npm error code ETARGET
+npm error notarget No matching version found for @storybook/addon-mdx-gfm@6.5.9.
+npm error notarget In most cases you or one of your dependencies are requesting
+npm error notarget a package version that doesn't exist.
+
+npm error A complete log of this run can be found in: C:\Users\Mrsic\AppData\Local\npm-cache\_logs\2024-07-05T19_20_24_830Z-debug-0.log
