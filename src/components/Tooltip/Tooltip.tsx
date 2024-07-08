@@ -8,11 +8,11 @@ import lightTheme from "../../styles/lightAntdTheme";
 import styles from "./Tooltip.module.css";
 
 const TooltipStyles: any = {
-  colorBgSpotlight: lightTheme?.tooltipBg,
-  borderRadius: lightTheme?.borderRadius,
+  colorBgSpotlight: "#414D5A",
+  borderRadius: 4,
   paddingSM: 16,
   paddingXS: 16,
-  fontSize: 12,
+  fontSize: 13,
   lineHeight: "18px",
 };
 

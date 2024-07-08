@@ -16,9 +16,9 @@ interface RadioProps extends AntRadioProps {
 const RadioStyles: any = {
   colorPrimary: lightTheme?.colorTextBase,
   colorText: lightTheme?.colorTextBase,
-  buttonSolidCheckedBg: lightTheme?.radioActiveButtonBg,
-  buttonSolidCheckedHoverBg: lightTheme?.radioActiveButtonBg,
-  buttonSolidCheckedActiveBg: lightTheme?.radioActiveButtonBg,
+  buttonSolidCheckedBg: "#e8e6ec",
+  buttonSolidCheckedHoverBg: "#e8e6ec",
+  buttonSolidCheckedActiveBg: "#e8e6ec",
   buttonSolidCheckedColor: lightTheme?.colorTextBase,
   //colorBorder: lightTheme?.colorTextBase,
 };
