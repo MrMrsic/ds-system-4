@@ -15,6 +15,7 @@ interface TextfieldProps extends AntInputProps {
   helperText?: string;
   fullwidth?: boolean;
   badgeIcon?: any;
+  password?: boolean;
 }
 
 const InputStyles: any = {
@@ -53,7 +54,11 @@ export const TextField = (props: TextfieldProps) => {
           components: { Input: InputStyles },
         }}
       >
-        <AntInput {...props} className={classes} />
+        {props?.password ? (
+          <AntInput.Password {...props} className={classes} />
+        ) : (
+          <AntInput {...props} className={classes} />
+        )}
       </ConfigProvider>
       {props?.helperText && (
         <div className={styles.helperText_holder}>

@@ -218,3 +218,27 @@ export const Validation = {
     },
   },
 };
+
+export const Password = {
+  render: () => (
+    <>
+      <div>
+        <TextField
+          size="middle"
+          label="Error input"
+          placeholder="Enter text..."
+          password
+        />
+      </div>
+    </>
+  ),
+
+  name: "Password",
+  parameters: {
+    docs: {
+      description: {
+        story: "",
+      },
+    },
+  },
+};
