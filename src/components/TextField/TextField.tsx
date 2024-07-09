@@ -25,6 +25,9 @@ const InputStyles: any = {
   borderRadius: "4px",
   controlHeight: "32",
   colorTextPlaceholder: "#637282",
+  inputFontSize: 14,
+  inputFontSizeLG: 14,
+  inputFontSizeSM: 12,
 };
 
 export const TextField = (props: TextfieldProps) => {
