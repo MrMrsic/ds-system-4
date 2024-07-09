@@ -15,9 +15,11 @@ interface ModalProps extends AntModalProps {
 }
 
 const sizes: any = {
+  xs: 300,
   sm: 400,
   md: 640,
   lg: 900,
+  xl: 1100,
   fullscreen: "100%",
 };
 
