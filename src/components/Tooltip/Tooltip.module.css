@@ -2,9 +2,9 @@
 
 .iki_tooltip {
   font-family: var(--main-font-family);
-  font-weight: 300;
 
   :global(.ant-tooltip-inner) {
     padding: 8px !important;
+    font-weight: 300;
   }
 }
